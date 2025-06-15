@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            margin: 0px 40px;
+            padding: 30px;
+            border: 1px solid blue;
+            border-radius: 10px;
+        }
+        .bx1{
+            height: 140px;
+            width: auto;
+            margin: 0px;
+            padding-left: 20px;
+        }
+        .bx2{
+            display: flex;
+        }
+        .box2{
+            border: 1px solid black;
+            border-radius: 8px;
+            width: 900px;
+            height: 450px;
+            margin: 10px;
+            padding: 10px;
+        }
+        .box1{
+            border: 1px solid black;
+            border-radius: 8px;
+            width: 350px;
+            height: 450px;
+            margin: 10px;
+            padding: 10px;
+        }
+        p,h3,h2,h1{
+            margin: 0px;
+            padding: 0px;
+        }
+        .in{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #btn{
+            height: 30px;
+            width: 130px;
+            background-color: aqua;
+            border-radius: 50px;
+            border: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="bx1">
+            <h1>Contact</h1>
+            <h2>-----</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, perspiciatis.</p>
+        </div>
+        <div class="bx2">
+            <div class="box1">
+                <div class="in">
+                    <h3>Address</h3>
+                    <p>kanota, bassi, jaipur, rajasthan (303012)</p>
+                </div>
+                <div class="in">
+                    <h3>Call Us</h3>
+                    <p>+9876542012</p>
+                </div>
+                <div class="in">
+                    <h3>Email Us</h3>
+                    <p>example@gmail.com</p>
+                </div>
+                <div class="in">
+                    <h3>map</h3>
+                </div>
+            </div>
+            <div class="box2">
+                <form action="./action">
+                    <label for="">your name</label><br>
+                    <input type="text" placeholder="enter name">
+                    <label for="">your email</label><br>
+                    <input type="email" placeholder="email"><br>
+                    <label for="">Massage</label><br>
+                    <input type="text" placeholder="give your msg">
+                    <input type="button" value="Send Massage" id="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
